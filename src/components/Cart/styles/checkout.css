@@ -1,0 +1,64 @@
+.address-form {
+  margin: 1rem 0;
+  height: 19rem;
+  overflow: auto;
+}
+
+.user-controls {
+  margin-bottom: 0.5rem;
+}
+
+.user-controls label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.user-controls input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.form-actions button {
+  font: inherit;
+  color: #5a1a01;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+}
+
+.form-actions button:hover,
+.form-actions button:active {
+  background-color: #ffe6dc;
+}
+
+.form-actions .submit-user-form {
+  border: 1px solid #5a1a01;
+  background-color: #5a1a01;
+  color: white;
+}
+
+.form-actions .submit-user-form:hover,
+.form-actions .submit-user-form:active {
+  background-color: #7a2706;
+}
+
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
